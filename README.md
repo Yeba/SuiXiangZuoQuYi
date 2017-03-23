@@ -1,4 +1,4 @@
-# SuiXiangZuoQuYi
+# 随想作曲仪
 遵从Creative Commons（CC）许可证，BY+NC+SA 。欢迎学习交流。 寻求商业用途请与作者联系mxcan@foxmail.com
 
 
