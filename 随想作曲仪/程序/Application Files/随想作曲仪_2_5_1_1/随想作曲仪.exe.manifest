@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="随想作曲仪.exe" version="2.5.1.1" publicKeyToken="147acf9fdf58b9d2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="i.ico" asmv2:publisher="MxCan-Margo" co.v1:suiteName="随想作曲仪" asmv2:product="随想作曲仪" asmv2:supportUrl="http://mxcan.win/" co.v1:errorReportUrl="http://mxcan.win/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="随想作曲仪" version="2.5.1.1" publicKeyToken="22FF199A5822667A" language="neutral" processorArchitecture="msil" />
+    <commandLine file="随想作曲仪.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="随想作曲仪.exe" size="481728">
+      <assemblyIdentity name="随想作曲仪" version="2.5.1.1" publicKeyToken="22FF199A5822667A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qoEkX8OzODhOdCh3XfyJETdT0yqCk1e+4AKWwGTvi7w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="i.ico" size="204862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ACQzbCHPotX37AMuJtw1fsLgOIalMpOjQJGu+MzLwpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\11.wav" size="359504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ePENCx/GBQZPE2rwWUjCOVgkAjYseF3KGPjVIvRTNFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\12.wav" size="350288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dNVPv0CYnpfd7ejVT6gpW8mgT1PPhdbBnHXRyUJzzqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\13.wav" size="322640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QtNBP1qJuk5JSoIYNzuksnccMjFIAJGQGU1DmVtz0gc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\14.wav" size="331856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TCsXABriwQs8nKyFaS9cEe/sl6xdm4mR8HvxKJzZvvk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\15.wav" size="341072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BudlZUuI9zSIMRigDfp8AhvUCbx8TJ89KxMwNl7vFO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\16.wav" size="318032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1Ukrtl7QtQpYGbRl9z100p5GNIAJD83AFSvxfeGxbik=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\17.wav" size="331856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Os27KNhHfoYsTqz2GQxtXlTZvJvZ8jVkaGRC7Pjr8XU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\21.wav" size="318032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TozRgPTSwqXjgIsaTC+ALBb9QYdXwFgzbd2bvSGBFqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\22.wav" size="318032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tIuWJhFGbx2J4dbII4cJhFzoZ8H7laKDjlcEuXLx560=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\23.wav" size="313424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>31T25UsZrXtSWTE+E8Trwne7ab1mJWS471GbS8+zeJA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\24.wav" size="345680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J8pzvXHO8zR1CdkUUJku/5ANN7BD1Kpl6gH76mWKERo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\25.wav" size="308816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M9PiKY17erS6f8wt3fwL1HG71JOWAVNtqKngct31s3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\26.wav" size="281168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bg1UFArS/eo6JTtZbSsXE83SE3USpiLTD9GxbQh1tTg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\27.wav" size="262736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kVPYjq4yG4ncSzELPGac+SRLZGqxlviGpZ5DRyU0WFs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\31.wav" size="294992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X1VA1aNtzrCERIj2/NTJmhOj7f148DcanESd5xPQiTg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\32.wav" size="276560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1jZ/CCkWOFcVUGrzirXZgmJJi9PB0enw8m8gkQuHFrw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\33.wav" size="253520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9FRGGD/6UP95qlmY/4ygqyLuu8rMdfyK2zGE5g3xQI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\34.wav" size="276560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aIHK2wtHfizuXq3FP0hWoPQm9BFgi18C8LUiPLsd2sY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\35.wav" size="276560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oebMv4ooIH4NGPFWdiz/+ewZpdlenis1rFEhdtmjlYg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\36.wav" size="271952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tahFQzG+78SCa4ji02KBZnp4mNodquEkYs0Bfw2tV7U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\37.wav" size="262736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HBQNN2r0+TEYm/jq0tCYERzs5vEoNh4XiQchrdZbPkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\41.wav" size="294992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+U7aBWCNZAb5gN/wdLDcrAGeBodIsyLvLhVyr9BLD4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\42.wav" size="262736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VU8BKV8kwZwrfFCCyFPBVihtLD4ZBzPrS4CTmM7vVCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\43.wav" size="267344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yflBpNBJHT221fAaxoRriyIGVPNt8o1T2KGKGrhHabQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\44.wav" size="253520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xKiJMocBc/C98eXX6eKJwC/jvk7Kj5ppODdPqf0avQY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\45.wav" size="258128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aGweVwhLGKwZDJtb1AqLUaYykhnGBTxiqV7xg/4xnzo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\46.wav" size="253520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QrD5HzcPQy9IP0QSiqjoVSQoW6+AFwC4fxThxTNJuy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\47.wav" size="253520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4JDOeodkFCrG7YDrcchRvU9KQQQGz3Sp747AdFhGzN4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\51.wav" size="248912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>unGZwNAA6JtxxhKE2KCeJx5bXu+afky3lw1DOjsdvks=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\52.wav" size="258128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fsF9uAFW1SdbdwUoQDAAptD9HXEKCI5LAKrxeTNtlSM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\53.wav" size="271952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cHdTKOLFOFok3mXLeqJRPMCghLFTf67aiH6j0Y8AIWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\54.wav" size="290384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B9c6leYTlxTnxEFhdt5gAHNmanNd7D5t/gNcpMffWM4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\55.wav" size="175184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w02+YA+HB96xbLqiEfJPo6Vfn0dfO74n9Z85aq1mtpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\56.wav" size="207440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D5YA/9690CGhSGD/YiJpE04SouvB990hq5CLUg9ewLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\57.wav" size="212048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AZOA17S896W/P5KTxBqDDlW6N3Loi32Iq4d8tTQawLs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\61.wav" size="165968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dKdMmEJiqNxlK9comZIQK6xnpALdkmhCuoDh9auiTso=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\62.wav" size="253520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HYdYJYtzNd6Y/gyxnLVZ8m7KG6mecFKDlzEndcjES0I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\63.wav" size="262736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NRwfY5MtNpJZtJhqoPU60Vny5mzqrIN98d2uHCFrcRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\64.wav" size="110672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gcUFoj2T9aqvPdvt/l617yKXTB0kSiOsFZ4rVBTFCJQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\65.wav" size="152144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>leTS3KnbUuLwpkz05R2/MAE2wT/YJ/1uxXTpuJAwBT0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\66.wav" size="221264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FB2/o3SoEXLFi60bAVAct5Z3A9bSynKqLtH+2qKIbH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\67.wav" size="110672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fAsbMW7CD1NloE2QiOco7MIIY+fD7+4Jd4T5RFit+ds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\71.wav" size="110672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yfKw3pYLGkfMnd8nFYLKfKxTfmxKl6fXaRM4iUCqxn8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\72.wav" size="161360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HuS2slgkZky5eQXabQQsdEGWKRjFqxBedD/B/yZkQqU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\73.wav" size="221264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zu/unq2U5UNQNJXeRpa11H0faO5KLUJNBUh4WM1narA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\74.wav" size="147536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5oiIjSRxRYy/PsfQFVpv0XHylk7l2TZBpQZIh9o/KtQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\75.wav" size="152144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>flnSiovFneeGg/Cxmb2Xp7zUhgrDEukSk7vlw/Iiqrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\76.wav" size="110672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2leYrTyfV78PkCAj3yMYxrNy5OwF2rZNy/FwrpwOKCI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\77.wav" size="156752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NMR+wII75YTbaSFN4p3XmiHpQm6MiPefVzVuFbfWfrU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\i.ico" size="204862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ACQzbCHPotX37AMuJtw1fsLgOIalMpOjQJGu+MzLwpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="随想作曲仪.exe.config" size="185">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IoMP57y0iUHYeyUiS70eu9mUAiEDOiQs1ljEQWZSqIs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".漾音乐" description="花样音乐文件" progid="hyyy" defaultIcon="i.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，Windows 将
+           自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HIK-MC-HD\liuyj" issuerKeyHash="853fe26c49084c5ff87468970a6e03538a554f45" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WTn48Bptn2keMTHdRCnDDqqE7prx1UQKE565jZPYXwQ=</DigestValue></Reference></SignedInfo><SignatureValue>84woekjZAJO0gnq9hRk9w6+tHQjJIRCh/ZM1gbAZtyt0KuD0gfwuisS0NXM1cCVEslGXbZl0NPvlwLS09bA7PEQ6qOjRvqWTWTpRT/c310bWLuA5IQH7ESnehwRKVv7kX2TnkBURFt3waNyuiPAe6oPj4tOOJzD7LOOOKxL1ToE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>/cmHLESYsF2dC/UTV5/6xMsubouTPDNbgslZEt26K4N4SdoQwid8xrVpnrLe3nOHaO1zGrRT3e9x61mpSKHzcCczfhnGOb7ioD7OZWG1CcSCpTJ6ClwInXVl0v8rtiRWsA2dTlevHo2BbDI8U+yMmO+5O3+eUce6XVcbmTCjqus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="045fd8938db99e130a44d5f19aee84aa0ec32944dd31311e699f6d1af0f83959" Description="" Url=""><as:assemblyIdentity name="随想作曲仪.exe" version="2.5.1.1" publicKeyToken="147acf9fdf58b9d2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HIK-MC-HD\liuyj</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mm40wwq9HhoZswx6RepGtAKCG3h7bHjS66CPMqrabLw=</DigestValue></Reference></SignedInfo><SignatureValue>FoXoh1YslHIzzZXcJdqIP1Fz0M+lFhdgh1YQC/9sVv2ar03iUb4jqO0ZKIpOFQPWzZVJgqwYLZRW7h9f1D1uZubHbKIEI7Hz6LU7MElfC1dxCSYpc27Y4TtCmDVgSv6fJZnGfAguWmVEdlV/7CwU1eU0rRDS3bCQKoOSHes6pQw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>/cmHLESYsF2dC/UTV5/6xMsubouTPDNbgslZEt26K4N4SdoQwid8xrVpnrLe3nOHaO1zGrRT3e9x61mpSKHzcCczfhnGOb7ioD7OZWG1CcSCpTJ6ClwInXVl0v8rtiRWsA2dTlevHo2BbDI8U+yMmO+5O3+eUce6XVcbmTCjqus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQH94E6mmuAJdAl5v+KgggzTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ASABJAEsALQBNAEMALQBIAEQAXABsAGkAdQB5AGowHhcNMTcwMzEyMDE0MzUxWhcNMTgwMzEyMDc0MzUxWjApMScwJQYDVQQDHh4ASABJAEsALQBNAEMALQBIAEQAXABsAGkAdQB5AGowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAP3JhyxEmLBdnQv1E1ef+sTLLm6LkzwzW4LJWRLduiuDeEnaEMInfMa1aZ6y3t5zh2jtcxq0U93vcetZqUih83AnM34Zxjm+4qA+zmVhtQnEgqUyegpcCJ11ZdL/K7YkVrANnU5Xrx6NgWwyPFPsjJjvuTt/nlHHul1XG5kwo6rrAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAya+7l3LPEt4/JPy1XmyFKCA+yh4JuaTMWszTUrd2Vc0LHZbd2lmLpNC+i4PYSe4/IKigPPQcoqMhh3H4Z82V1fEaebx2JKQHQ/J01ZVSE3b4T3GQg9JYx02ID4dIbHJOfAe0eIITB9HrT47VeppTSbCG3gfDh5SLN7PUrnO/BwY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
